@@ -5,13 +5,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashScreenActivity">
+    tools:context=".SplashScreenActivity"
+    android:gravity="center">
 
-    <com.airbnb.lottie.LottieAnimationView
+ <!--   <com.airbnb.lottie.LottieAnimationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:lottie_rawRes="@raw/lovely_cats"
         app:lottie_speed="@integer/material_motion_duration_short_2"
-        />
+        />-->
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@drawable/welcome_cats"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cat_facts"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/purple_undraw"
+        android:gravity="center"/>
 
 </LinearLayout>

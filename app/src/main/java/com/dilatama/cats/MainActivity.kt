@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
             }
             binding.lvReview.adapter = ArrayAdapter(this, R.layout.item_review, listFacts)
 
+
         }
     }
 }

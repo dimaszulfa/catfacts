@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">CatUniverse</string>
     <string name="dummy_fact">Cat is animal who is like playing with human</string>
+    <string name="cat_facts">Cat Facts</string>
+    <string name="this_is_a_sample_of_text">This is a sample of text</string>
+    <string name="welcome_to_cat_facts">Welcome to Cat Universe</string>
+    <string name="our_menu_s">Our Menu\'s</string>
+    <string name="suggestion">If u have any idea or suggestion pls dm me, because ur suggestion will make our app growth</string>
+    <string name="breed">Breed</string>
+    <string name="all_random_fact">All Random Fact</string>
+    <string name="random_fact">Random Fact</string>
 </resources>
